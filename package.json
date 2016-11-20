@@ -1,0 +1,24 @@
+{
+  "name": "randomwalk",
+  "version": "1.0.0",
+  "description": "A 3D randomwalk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santeri Horttanainen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "gulp": "^3.9.1",
+    "html-webpack-plugin": "^2.24.1",
+    "path": "^0.12.7",
+    "ramda": "^0.22.1",
+    "three": "^0.82.1",
+    "webpack": "^1.13.3",
+    "webpack-stream": "^3.2.0"
+  }
+}
