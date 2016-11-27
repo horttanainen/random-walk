@@ -4,14 +4,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'),
 
 module.exports = {
     cache: true,
-    entry: './src/entry.js',
+    entry: path.join(__dirname, '../src/entry.js'),
     output: {
-        path: path.join(__dirname, "build"),
+        path: path.join(__dirname, "../build"),
         filename: 'build.min.js'
     },
     resolve: {
         root: [
-            path.resolve('./src')
+            path.resolve(path.join(__dirname, '../src'))
         ]
     },
     module: {
